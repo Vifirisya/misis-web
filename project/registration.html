@@ -5,6 +5,38 @@
     <title>Zhaba store</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<script>
+    function acceptForm(){
+        var nm = document.getElementById("nameInput").value;
+        var lastNm = document.getElementById("lastNameInput").value;
+        var pasw = document.getElementById("passwordInput").value;
+        var mail = document.getElementById("emailInput").value;
+        
+        var regexp = /[a-z]/;
+        if (!regexp.test(nm) || !regexp.test(lastNm)){
+            alert("Name and lastname must not contain any numbers!")
+            return
+        }
+
+        regexp = /a{5,100}/;
+
+        if(!regexp.test(pasw)){
+            alert("Password must be from 5 to 100 symbols length!")
+            return
+        }
+
+        alert("Success")
+
+        /*alert(nm);
+        alert(lastNm);
+        alert(pasw);
+        alert(mail);*/
+    }
+
+    document.addEventListener("submit", acceptForm);
+</script>
+
 <body>
     <h1><a href="index.html">Zhaba store</a></h1>
     <hr>
@@ -12,10 +44,10 @@
     <h2>Регистрация</h2>
     
     <form action="#">
-        <p>Имя</p><input type="text"><br>
-        <p>Фамилия</p><input type="text"><br>
-        <p>Пароль</p><input type="password"><br>
-        <p>Адрес электронной почты</p><input type="email"><br>
+        <p>Имя</p><input type="text", id="nameInput"><br>
+        <p>Фамилия</p><input type="text", id="lastNameInput"><br>
+        <p>Пароль</p><input type="password", id="passwordInput"><br>
+        <p>Адрес электронной почты</p><input id="emailInput"><br>
         <br>
         <input type="submit">
     </form>
@@ -24,4 +56,5 @@
     <hr>
     <p>&copy;Zhaba shop Все права защищены</p>
 </body>
+
 </html>
