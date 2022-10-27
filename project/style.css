@@ -8,13 +8,32 @@ body {
 
 a {
     text-decoration: none;
-    color: chocolate;
+    color: #6BC146;
+    text-shadow: 3px 3px 3px #000;
 }
+
+/*
+input{
+    background: #6BC146;
+    content: black;
+}
+
+input:enabled{
+    background: #6BC146;
+}
+
+input:focus{
+    background: #6BC146;
+}
+
+*/
 
 .semiopacity {
     /*padding: 5px;*/
-    
-    /*opacity: .3;*/
+    /*background-image: url(img/back2.png)*/
+    /*opacity: .3;
+    background: #CDD6DB;*/
+    background: rgba(10, 10, 10, 0.65);
 }
 
 a:hover {
@@ -28,28 +47,38 @@ li {
 
 p {
     font-size: 20px;
+    color: #6BC146;
 }
 
 h5 {
     font-size: 25px;
+    color: #6BC146;
 }
 
 h2 {
     font-size: 35px;
     text-decoration: underline;
+    color: #6BC146;
 }
 
 h4 {
     font-size: 25px;
+    color: #6BC146;
+}
+
+h3 {
+    color: #6BC146;
+    font-size: 20px;
 }
 
 h1 {
     font-size: 80px;
+    color: #6BC146;
 }
 
 .box {
-    background-color: #567895;
-    opacity: .10;
+    background: #567895;
+    opacity: .3;
 }
 
 .menu {

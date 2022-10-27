@@ -6,22 +6,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   <div class="semiopacity">
     <h1><a href="index.html">Zhaba store</a></h1>
     <hr>
     <h4><a href="products.html">Ассортимент</a></h4>
+    <hr>
     <h2>Регистрация</h2>
     
     <form action="#">
-        <p>Имя</p><input type="text"><br>
-        <p>Фамилия</p><input type="text"><br>
-        <p>Пароль</p><input type="password"><br>
-        <p>Адрес электронной почты</p><input type="email"><br>
+        <p>Имя</p><input type="text", id="nameInput"><br>
+        <p>Фамилия</p><input type="text", id="lastNameInput"><br>
+        <p>Пароль</p><input type="password", id="passwordInput"><br>
+        <p>Адрес электронной почты</p><input id="emailInput"><br>
         <br>
-        <input type="submit">
+        <input class="button" type="submit">
     </form>
     
     <br>
     <hr>
     <p>&copy;Zhaba shop Все права защищены</p>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
