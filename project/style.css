@@ -10,7 +10,18 @@ a {
     text-decoration: none;
     color: #6BC146;
     text-shadow: 3px 3px 3px #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+
+
+::selection {
+    color: #000;
+    background: #6BC146;
+    text-shadow: 0px 0px 0px #000;
+}
+/*::-moz-selection {
+    background: #ffb7b7; =
+}*/
 
 /*
 input{
@@ -48,32 +59,38 @@ li {
 p {
     font-size: 20px;
     color: #6BC146;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 h5 {
     font-size: 25px;
     color: #6BC146;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 h2 {
     font-size: 35px;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     color: #6BC146;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 h4 {
     font-size: 25px;
     color: #6BC146;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 h3 {
     color: #6BC146;
     font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 h1 {
     font-size: 80px;
     color: #6BC146;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .box {
