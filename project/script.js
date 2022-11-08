@@ -10,9 +10,9 @@ function acceptForm(){
             return
         }
 
-        regexp = /^[0-9a-z]{5,100}/i;
+        var regexp2 = /^[0-9a-z]{5,100}/i;
 
-        if(!regexp.test(pasw)){
+        if(!regexp2.test(pasw)){
             alert("Password must be from 5 to 100 symbols length!")
             return
         }

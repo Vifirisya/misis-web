@@ -23,7 +23,7 @@ a {
     background: #ffb7b7; =
 }*/
 
-/*
+
 input{
     background: #6BC146;
     content: black;
@@ -37,7 +37,9 @@ input:focus{
     background: #6BC146;
 }
 
-*/
+input:any-link{
+    background: #6BC146;
+}
 
 .semiopacity {
     /*padding: 5px;*/
